@@ -21,11 +21,11 @@
     margin-right: 0;
 }
 
-.footer-list-item {
+.footer-list-link {
     margin-bottom: 9px;
 }
 
-.footer-list-link-adress {
+.footer-list__adress {
     font-style: normal;
     @include font(14px, 400, 24px);
     
@@ -41,7 +41,7 @@
 
 
 
-.footer-list-link {
+.footer-list__link {
     font-style: normal;
     @include font(14px, 400, 24px);
     letter-spacing: 0.03em;

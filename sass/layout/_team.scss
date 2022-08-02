@@ -58,11 +58,11 @@
     color: var(--secondary-text-color);
 }
 
-.team-social-list-icon {
+.team-social-list__icon {
     fill: #afb1b8;
 
-    .social-list-item-link:focus &,
-    .social-list-item-link:hover & {
+    .social-list__item-link:focus &,
+    .social-list__item-link:hover & {
             fill: #ffffff;
         }
 }

@@ -24,7 +24,7 @@
 
 
 
-.nav-list-link {
+.nav-list__link {
     color: inherit;
     @include font(14px, 500, 16px);
     
@@ -38,7 +38,7 @@
         }
 }
 
-.nav-list-item {
+.nav-list__item {
     position: relative;
 
     &:not(:last-child) {
@@ -49,7 +49,7 @@
 
 
 
-.nav-list-link.current::after {
+.nav-list__link.current::after {
     content: '';
     position: absolute;
     width: 100%;

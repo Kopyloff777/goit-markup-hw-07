@@ -10,7 +10,7 @@
     color: var(--primary-text-color);
 }
 
-.clients-icon {
+.clients-list__icon {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,16 +27,16 @@
         }
 }
 
-.clients-list-item:not(:last-child) {
+.clients-list__item:not(:last-child) {
     margin-right: 30px;
 }
 
-.clients-icon-img {
+.clients-list__icon-img {
     fill: #afb1b8;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-    .clients-icon:hover &,
-        .clients-icon:focus & {
+    .clients-list__icon:hover &,
+        .clients-list__icon:focus & {
             fill: var(--accent-text-color);
         }
 }
